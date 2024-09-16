@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a1421;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+}
+
+nav .logo h1 {
+    font-size: 24px;
+}
+
+nav .call-us button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 80vh;
+    position: relative;
+    background-image: url('./img/Folder-img.jpeg'); /* Use the image as background */
+    background-position: right center; /* Position image to the right middle */
+    background-repeat: no-repeat;
+    background-size: 50%; /* Adjust the size of the background image */
+}
+
+.content {
+    max-width: 50%;
+    z-index: 1; /* To ensure text appears above the background */
+}
+
+.content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #377dff;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    z-index: 1;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.image-container {
+    display: none; /* No longer needed */
+}
